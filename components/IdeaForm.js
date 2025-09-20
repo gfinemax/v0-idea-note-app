@@ -119,7 +119,7 @@ export default function IdeaForm({ onSubmit, editingIdea, onCancel }) {
                   }}
                   className="flex-1 bg-green-50 dark:bg-green-900/20 border-2 border-green-100 dark:border-green-800/50 focus:border-green-400 focus:ring-2 focus:ring-green-100 dark:focus:ring-green-800/30 rounded-lg p-2 transition-colors"
                 />
-                <Button type="button" onClick={addTag} variant="outline">
+                <Button type="button" onClick={addTag} className="bg-green-600 text-white hover:bg-green-700 dark:bg-green-700 dark:hover:bg-green-800">
                   추가
                 </Button>
               </div>
